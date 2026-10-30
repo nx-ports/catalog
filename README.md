@@ -40,11 +40,11 @@ Neither Frontport nor this Catalog is affiliated with Nintendo or with the Proje
 
 ## Changing the Catalog
 
-Every change to `catalog.json` or a Recipe needs a new signature, and `issued` bumped. From Frontport's `FrontportKit` folder:
+Every change to `catalog.json` or a Recipe needs a new signature, and `issued` bumped. From Frontport's `FrontportKit` folder, with `NX` set to this repository's folder:
 
 ```sh
-swift run frontport-catalog sign --key ../../nx-ports-catalog/switch.key --update-recipe-hashes ../../nx-ports-catalog/catalog.json
-swift run frontport-catalog verify --public-key "$(cat ../../nx-ports-catalog/catalog.pub)" ../../nx-ports-catalog/catalog.json
+swift run frontport-catalog sign --key "$NX/switch.key" --update-recipe-hashes "$NX/catalog.json"
+swift run frontport-catalog verify --public-key "$(cat "$NX/catalog.pub")" "$NX/catalog.json"
 ```
 
 `switch.key`, the private key, is gitignored and never committed.
@@ -53,7 +53,7 @@ To build a Recipe outside Frontport, from Frontport's `FrontportKit` folder:
 
 ```sh
 FRONTPORT_NETWORK_TESTS=1 FRONTPORT_RECIPE=nxnative FRONTPORT_RECIPE_PORT=nxnative-totk \
-FRONTPORT_RECIPE_FILE=../../nx-ports-catalog/recipes/nxnative.sh \
+FRONTPORT_RECIPE_FILE="$NX/recipes/nxnative.sh" \
 FRONTPORT_RECIPE_REF=6a0687721a1da9a6a0273c6ce2f11eedcf4af445 \
 FRONTPORT_RECIPE_ROMS=/path/game.nsp,/path/update.nsp,/path/prod.keys swift test --filter RecipeIntegrationTests
 ```
