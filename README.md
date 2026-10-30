@@ -12,7 +12,7 @@ A Catalog for [Frontport](https://github.com/svich/frontport), the macOS app tha
 In Frontport, choose **Settings › Catalogs › Add…** and paste:
 
 ```
-https://raw.githubusercontent.com/nx-ports/nx-ports-catalog/main/
+https://raw.githubusercontent.com/nx-ports/catalog/main/
 ```
 
 Frontport reads the Catalog's public key from `catalog.pub` and shows its fingerprint before you add it. It should be:
