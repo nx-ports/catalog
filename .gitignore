@@ -1,0 +1,3 @@
+# The private signing key never leaves this Mac.
+*.key
+.DS_Store

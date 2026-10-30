@@ -1,0 +1,289 @@
+{
+  "version": 4,
+  "issued": "2026-10-31T00:40:00Z",
+  "name": "Switch Ports",
+  "platforms": [
+    { "id": "switch", "name": "Nintendo Switch", "shortName": "Switch", "medium": "cartridge" }
+  ],
+  "genres": [
+    { "id": "platformer", "name": "Platformer" },
+    { "id": "adventure", "name": "Adventure" },
+    { "id": "rpg", "name": "Role-playing" }
+  ],
+  "games": [
+    { "id": "super-mario-bros-wonder", "name": "Super Mario Bros. Wonder", "shortName": "Mario Wonder", "platform": "switch", "genres": ["platformer"], "steamgriddb": 5409928 },
+    { "id": "tears-of-the-kingdom", "name": "The Legend of Zelda: Tears of the Kingdom", "shortName": "Tears of the Kingdom", "platform": "switch", "genres": ["adventure"], "steamgriddb": 5303117 },
+    { "id": "fire-emblem-three-houses", "name": "Fire Emblem: Three Houses", "shortName": "Three Houses", "platform": "switch", "genres": ["rpg"], "steamgriddb": 5246430 },
+    { "id": "links-awakening", "name": "The Legend of Zelda: Link’s Awakening", "shortName": "Link’s Awakening", "platform": "switch", "genres": ["adventure"], "steamgriddb": 5253316 }
+  ],
+  "roms": [
+    { "sha1": "2d8a1a23e46155aaeb8b5066f12e3446ef890eed", "game": "super-mario-bros-wonder", "name": "1.0.0 (game card)", "format": "nsp" },
+    { "sha1": "993b25ed397990868bc293d77074687f399ef995", "game": "super-mario-bros-wonder", "name": "1.0.0 (eShop)", "format": "nsp" },
+    { "sha1": "db92e3abdc01045307e42654169767598fb5a975", "game": "super-mario-bros-wonder", "name": "Update 1.2.1 (eShop)", "format": "nsp", "type": "update" },
+    { "sha1": "3408d268e0522c53e96e1c853f99f93fd00e53be", "game": "tears-of-the-kingdom", "name": "1.0.0 (game card)", "format": "nsp" },
+    { "sha1": "a69ed9952cd3eafcdb8bdabfa6d6e890656f0b1f", "game": "tears-of-the-kingdom", "name": "1.0.0 (eShop)", "format": "nsp" },
+    { "sha1": "0f58226cc2cde91f1d97051b284fe0109824ef98", "game": "tears-of-the-kingdom", "name": "Update 1.4.3 (eShop)", "format": "nsp", "type": "update" },
+    { "sha1": "9cb1da32f709e54685094a2eb16ae2f2e3d739cc", "game": "fire-emblem-three-houses", "name": "1.0.0 (game card)", "format": "nsp" },
+    { "sha1": "ebaff3efc6bd9d581fc76bd669c757723fd22a45", "game": "fire-emblem-three-houses", "name": "1.0.0 (eShop)", "format": "nsp" },
+    { "sha1": "249b4e489b811d17b4551fd9f1c38457e75e757a", "game": "fire-emblem-three-houses", "name": "Update 1.2.0 (eShop)", "format": "nsp", "type": "update" },
+    { "sha1": "87a9115769224131e2bb72e74121076cf9044c91", "game": "fire-emblem-three-houses", "name": "DLC: Cindered Shadows (eShop)", "format": "nsp", "type": "dlc" },
+    { "sha1": "4e3a1f626526e28c837406c2bc58454d5942dcbe", "game": "fire-emblem-three-houses", "name": "DLC: New Attire (eShop)", "format": "nsp", "type": "dlc" },
+    { "sha1": "05023b31a44c3859cdedec9a55a172b3b4f5e040", "game": "fire-emblem-three-houses", "name": "DLC: Auxiliary Battle Maps (eShop)", "format": "nsp", "type": "dlc" },
+    { "sha1": "dd9851af7b679578b44b2ed04d3ad07eaee55cb0", "game": "fire-emblem-three-houses", "name": "DLC: Additional Quests (eShop)", "format": "nsp", "type": "dlc" },
+    { "sha1": "c94196cd8d2f7eff6c470508fc2d5a8f4d24d60b", "game": "fire-emblem-three-houses", "name": "DLC: Additional Support Items (eShop)", "format": "nsp", "type": "dlc" },
+    { "sha1": "fe9326002db4afa7d01e1afa8da7702546bc8b22", "game": "fire-emblem-three-houses", "name": "DLC: Officers Academy Uniform for Byleth (eShop)", "format": "nsp", "type": "dlc" },
+    { "sha1": "0e5b867d1bcc3ddd1fda2bfac87ac7e785acacde", "game": "links-awakening", "name": "1.0.0 (eShop)", "format": "nsp" },
+    { "sha1": "73d4a80b47a07c21c1b91e873d4d3d2ceecf2215", "game": "links-awakening", "name": "Update 1.1.0 (eShop)", "format": "nsp", "type": "update" },
+    { "sha1": "3d5674e1f5094aee4ff97f33d9030b44d926d2eb", "platform": "switch", "name": "Console keys through master_key_15 (firmware 22.0.0 or later)", "format": "keys" },
+    { "sha1": "f592938471b3a40dd6f6a99a8f43fd42faa1f61a", "platform": "switch", "name": "Console keys through master_key_14 (firmware 21.0.0 or later)", "format": "keys" },
+    { "sha1": "31a602f4ce8ec959e21243dcba6e7ce782f6dce5", "platform": "switch", "name": "Console keys through master_key_13 (firmware 20.0.0 or later)", "format": "keys" },
+    { "sha1": "392271611b5c8f2f84e45304e608bc45f48a68bd", "platform": "switch", "name": "Console keys through master_key_12 (firmware 19.0.0 or later)", "format": "keys" },
+    { "sha1": "852d8dc6d32a56d7276d05be8f0d6876bc0695bd", "platform": "switch", "name": "Console keys through master_key_11 (firmware 18.0.0 or later)", "format": "keys" },
+    { "sha1": "c8b5344ce841d09ace194b20eedeedbbf7c4886e", "platform": "switch", "name": "Console keys through master_key_10 (firmware 17.0.0 or later)", "format": "keys" },
+    { "sha1": "c819dbb583acba0bfbba0eb083e64be855e01b4b", "platform": "switch", "name": "Console keys through master_key_0f (firmware 16.0.0 or later)", "format": "keys" },
+    { "sha1": "3c44e52b4d4f6d143b6d8370a5f8818aeca32a1b", "platform": "switch", "name": "Console keys through master_key_0e (firmware 15.0.0 or later)", "format": "keys" },
+    { "sha1": "c26f21871dc74608226cdb9772caef55c9c1c881", "platform": "switch", "name": "Console keys through master_key_0d (firmware 14.0.0 or later)", "format": "keys" },
+    { "sha1": "b9912bd0466df58a16e5ea3e4ae18876aaba3f72", "platform": "switch", "name": "Console keys through master_key_0c (firmware 13.0.0 or later)", "format": "keys" },
+    { "sha1": "ff4ee075c475e2aea5deae21a1bcd1ce6e1720dc", "platform": "switch", "name": "Console keys through master_key_0b (firmware 12.1.0 or later)", "format": "keys" },
+    { "sha1": "ae852bb70ea089225d1d09357efff6352c595345", "platform": "switch", "name": "Console keys through master_key_0a (firmware 9.1.0 or later)", "format": "keys" },
+    { "sha1": "e466c22c076a9223b13f0a888a209715fb4c04dc", "platform": "switch", "name": "Firmware 22.5.0", "format": "folder" }
+  ],
+  "ports": [
+    {
+      "id": "nxnative-wonder",
+      "name": "nxnative",
+      "kind": "recomp",
+      "game": "super-mario-bros-wonder",
+      "developer": "seedds",
+      "summary": "Super Mario Bros. Wonder’s own code, running natively on the Mac.",
+      "description": "nxnative runs a Switch game’s own arm64 code natively: it rewrites the game’s code modules so they run outside a Switch, stands in for the Switch’s system with a host of its own, and translates the game’s NVN graphics and shaders to Metal. Upstream makes iPhone and iPad apps; on the Mac it has a development host, which Frontport builds from source and wraps in an app. The build reads your NSPs (or NSZs) and console keys and makes the game files the app plays from. Settings such as the game language go in env.txt in the Port’s Data, one DM_ setting per line.\n\nIt plays version 1.2.1, the one upstream brought it up on, so it needs the base game and the 1.2.1 update. Upstream notes that on the Mac the menus’ and dialogue’s text are blank, though they show on an iPhone.",
+      "source": "https://github.com/seedds/nxnative",
+      "bundleId": "dev.frontport.port.nxnative-wonder",
+      "releases": {
+        "type": "git",
+        "repo": "seedds/nxnative",
+        "refs": { "stable": "6a0687721a1da9a6a0273c6ce2f11eedcf4af445" },
+        "recipe": "recipes/nxnative.sh",
+        "recipeSHA256": "19d01df714fe2cfbb8df5a1c0d8e21b2e0c3612ff82b903a8ce3f0786bda3bfd"
+      },
+      "requirements": [
+        {
+          "label": "Super Mario Bros. Wonder",
+          "stage": "build",
+          "oneOf": ["2d8a1a23e46155aaeb8b5066f12e3446ef890eed", "993b25ed397990868bc293d77074687f399ef995"]
+        },
+        {
+          "label": "Update 1.2.1",
+          "stage": "build",
+          "oneOf": ["db92e3abdc01045307e42654169767598fb5a975"]
+        },
+        {
+          "label": "Console keys",
+          "stage": "build",
+          "oneOf": ["3d5674e1f5094aee4ff97f33d9030b44d926d2eb"]
+        }
+      ],
+      "permissions": { "network": false, "controllers": true, "files": false },
+      "artwork": { "fallback": 5409928 },
+      "codeSigning": { "exceptions": ["allow-unsigned-executable-memory"] },
+      "buildAssets": { "path": "Contents/Resources/game", "format": "6a06877" },
+      "screenshots": [],
+      "tags": [],
+      "firstRelease": "2026-10-12T14:04:20Z"
+    },
+    {
+      "id": "nxnative-totk",
+      "name": "nxnative",
+      "kind": "recomp",
+      "game": "tears-of-the-kingdom",
+      "developer": "seedds",
+      "summary": "Tears of the Kingdom’s own code, running natively on the Mac at 60 fps.",
+      "description": "nxnative runs a Switch game’s own arm64 code natively: it rewrites the game’s code modules so they run outside a Switch, stands in for the Switch’s system with a host of its own, and translates the game’s NVN graphics and shaders to Metal. Upstream makes iPhone and iPad apps; on the Mac it has a development host, which Frontport builds from source and wraps in an app. The build reads your NSPs (or NSZs) and console keys and makes the game files the app plays from. Settings such as the game language go in env.txt in the Port’s Data, one DM_ setting per line.\n\nIt plays version 1.4.3, the one upstream brought it up on, so it needs the base game and the 1.4.3 update. Upstream runs the game at 60 fps instead of 30, at normal speed; DM_FPS_TARGET=30 in env.txt keeps the original 30.",
+      "source": "https://github.com/seedds/nxnative",
+      "bundleId": "dev.frontport.port.nxnative-totk",
+      "releases": {
+        "type": "git",
+        "repo": "seedds/nxnative",
+        "refs": { "stable": "6a0687721a1da9a6a0273c6ce2f11eedcf4af445" },
+        "recipe": "recipes/nxnative.sh",
+        "recipeSHA256": "19d01df714fe2cfbb8df5a1c0d8e21b2e0c3612ff82b903a8ce3f0786bda3bfd"
+      },
+      "requirements": [
+        {
+          "label": "Tears of the Kingdom",
+          "stage": "build",
+          "oneOf": ["3408d268e0522c53e96e1c853f99f93fd00e53be", "a69ed9952cd3eafcdb8bdabfa6d6e890656f0b1f"]
+        },
+        {
+          "label": "Update 1.4.3",
+          "stage": "build",
+          "oneOf": ["0f58226cc2cde91f1d97051b284fe0109824ef98"]
+        },
+        {
+          "label": "Console keys",
+          "stage": "build",
+          "oneOf": ["3d5674e1f5094aee4ff97f33d9030b44d926d2eb", "f592938471b3a40dd6f6a99a8f43fd42faa1f61a"]
+        }
+      ],
+      "permissions": { "network": false, "controllers": true, "files": false },
+      "artwork": { "fallback": 5303117 },
+      "codeSigning": { "exceptions": ["allow-unsigned-executable-memory"] },
+      "buildAssets": { "path": "Contents/Resources/game", "format": "6a06877" },
+      "screenshots": [],
+      "tags": ["60fps"],
+      "firstRelease": "2026-10-18T05:32:48Z"
+    },
+    {
+      "id": "nxnative-three-houses",
+      "name": "nxnative",
+      "kind": "recomp",
+      "game": "fire-emblem-three-houses",
+      "developer": "seedds",
+      "summary": "Three Houses’ own code, running natively on the Mac at 60 fps.",
+      "description": "nxnative runs a Switch game’s own arm64 code natively: it rewrites the game’s code modules so they run outside a Switch, stands in for the Switch’s system with a host of its own, and translates the game’s NVN graphics and shaders to Metal. Upstream makes iPhone and iPad apps; on the Mac it has a development host, which Frontport builds from source and wraps in an app. The build reads your NSPs (or NSZs) and console keys and makes the game files the app plays from. Settings such as the game language go in env.txt in the Port’s Data, one DM_ setting per line.\n\nIt plays version 1.2.0, the one upstream brought it up on, so it needs the base game and the 1.2.0 update. The DLC, Cindered Shadows among it, is optional, but a save made with it needs it. The build boots the game for a few seconds to capture the shaders it compiles as it starts. Upstream runs the game at 60 fps instead of 30, at normal speed, and notes small square patches on the ground where decals land.",
+      "source": "https://github.com/seedds/nxnative",
+      "bundleId": "dev.frontport.port.nxnative-three-houses",
+      "releases": {
+        "type": "git",
+        "repo": "seedds/nxnative",
+        "refs": { "stable": "6a0687721a1da9a6a0273c6ce2f11eedcf4af445" },
+        "recipe": "recipes/nxnative.sh",
+        "recipeSHA256": "19d01df714fe2cfbb8df5a1c0d8e21b2e0c3612ff82b903a8ce3f0786bda3bfd"
+      },
+      "requirements": [
+        {
+          "label": "Fire Emblem: Three Houses",
+          "stage": "build",
+          "oneOf": ["9cb1da32f709e54685094a2eb16ae2f2e3d739cc", "ebaff3efc6bd9d581fc76bd669c757723fd22a45"],
+          "extras": [
+            "87a9115769224131e2bb72e74121076cf9044c91",
+            "4e3a1f626526e28c837406c2bc58454d5942dcbe",
+            "05023b31a44c3859cdedec9a55a172b3b4f5e040",
+            "dd9851af7b679578b44b2ed04d3ad07eaee55cb0",
+            "c94196cd8d2f7eff6c470508fc2d5a8f4d24d60b",
+            "fe9326002db4afa7d01e1afa8da7702546bc8b22"
+          ]
+        },
+        {
+          "label": "Update 1.2.0",
+          "stage": "build",
+          "oneOf": ["249b4e489b811d17b4551fd9f1c38457e75e757a"]
+        },
+        {
+          "label": "Console keys",
+          "stage": "build",
+          "oneOf": [
+            "3d5674e1f5094aee4ff97f33d9030b44d926d2eb",
+            "f592938471b3a40dd6f6a99a8f43fd42faa1f61a",
+            "31a602f4ce8ec959e21243dcba6e7ce782f6dce5",
+            "392271611b5c8f2f84e45304e608bc45f48a68bd",
+            "852d8dc6d32a56d7276d05be8f0d6876bc0695bd",
+            "c8b5344ce841d09ace194b20eedeedbbf7c4886e",
+            "c819dbb583acba0bfbba0eb083e64be855e01b4b",
+            "3c44e52b4d4f6d143b6d8370a5f8818aeca32a1b",
+            "c26f21871dc74608226cdb9772caef55c9c1c881",
+            "b9912bd0466df58a16e5ea3e4ae18876aaba3f72",
+            "ff4ee075c475e2aea5deae21a1bcd1ce6e1720dc",
+            "ae852bb70ea089225d1d09357efff6352c595345"
+          ]
+        }
+      ],
+      "permissions": { "network": false, "controllers": true, "files": false },
+      "artwork": { "fallback": 5246430 },
+      "codeSigning": { "exceptions": ["allow-unsigned-executable-memory"] },
+      "buildAssets": { "path": "Contents/Resources/game", "format": "6a06877" },
+      "screenshots": [],
+      "tags": ["60fps"],
+      "firstRelease": "2026-10-18T12:45:16Z"
+    },
+    {
+      "id": "nxnative-links-awakening",
+      "name": "nxnative",
+      "kind": "recomp",
+      "game": "links-awakening",
+      "developer": "seedds",
+      "summary": "Link’s Awakening’s own code, running natively on the Mac.",
+      "description": "nxnative runs a Switch game’s own arm64 code natively: it rewrites the game’s code modules so they run outside a Switch, stands in for the Switch’s system with a host of its own, and translates the game’s NVN graphics and shaders to Metal. Upstream makes iPhone and iPad apps; on the Mac it has a development host, which Frontport builds from source and wraps in an app. The build reads your NSPs (or NSZs) and console keys and makes the game files the app plays from. Settings such as the game language go in env.txt in the Port’s Data, one DM_ setting per line.\n\nIt plays version 1.1.0, the one upstream brought it up on, so it needs the base game and the 1.1.0 update. The title screen asks for L and R together: Q and E on the keyboard.",
+      "source": "https://github.com/seedds/nxnative",
+      "bundleId": "dev.frontport.port.nxnative-links-awakening",
+      "releases": {
+        "type": "git",
+        "repo": "seedds/nxnative",
+        "refs": { "stable": "6a0687721a1da9a6a0273c6ce2f11eedcf4af445" },
+        "recipe": "recipes/nxnative.sh",
+        "recipeSHA256": "19d01df714fe2cfbb8df5a1c0d8e21b2e0c3612ff82b903a8ce3f0786bda3bfd"
+      },
+      "requirements": [
+        {
+          "label": "Link’s Awakening",
+          "stage": "build",
+          "oneOf": ["0e5b867d1bcc3ddd1fda2bfac87ac7e785acacde"]
+        },
+        {
+          "label": "Update 1.1.0",
+          "stage": "build",
+          "oneOf": ["73d4a80b47a07c21c1b91e873d4d3d2ceecf2215"]
+        },
+        {
+          "label": "Console keys",
+          "stage": "build",
+          "oneOf": ["3d5674e1f5094aee4ff97f33d9030b44d926d2eb", "f592938471b3a40dd6f6a99a8f43fd42faa1f61a", "31a602f4ce8ec959e21243dcba6e7ce782f6dce5"]
+        }
+      ],
+      "permissions": { "network": false, "controllers": true, "files": false },
+      "artwork": { "fallback": 5253316 },
+      "codeSigning": { "exceptions": ["allow-unsigned-executable-memory"] },
+      "buildAssets": { "path": "Contents/Resources/game", "format": "6a06877" },
+      "screenshots": [],
+      "tags": [],
+      "firstRelease": "2026-10-17T00:28:44Z"
+    },
+    {
+      "id": "macnativegames-totk",
+      "name": "MacNativeGames",
+      "kind": "recomp",
+      "game": "tears-of-the-kingdom",
+      "developer": "ly05010419",
+      "summary": "Tears of the Kingdom’s own code on the Mac, its graphics rebuilt on Metal.",
+      "description": "MacNativeGames runs a Switch game’s own arm64 code natively: it rewrites the game’s code modules for Apple silicon, answers the Switch’s system services with a small host, and rebuilds the game’s NVN graphics on Metal. Upstream builds a Mac app on your Mac from your own files; Frontport builds that app from source. The build reads your NSPs, console keys and a Switch firmware, whose shared fonts the game uses, and compiles every startup shader ahead, so the game doesn’t stop to compile them; the first start still builds its render pipelines before the title, which takes minutes once.\n\nIt plays version 1.4.3, so it needs the base game and the 1.4.3 update. Key 1 opens its settings: a frame rate lock, MetalFX upscaling and frame interpolation, resolutions up to 2K, ultrawide aspect ratios and mouse aiming.",
+      "source": "https://github.com/ly05010419/MacNativeGames",
+      "bundleId": "dev.frontport.port.macnativegames-totk",
+      "releases": {
+        "type": "git",
+        "repo": "ly05010419/MacNativeGames",
+        "refs": { "stable": "4b3fc724f9c84fa7273dee4016932c820d9e9b19" },
+        "recipe": "recipes/macnativegames.sh",
+        "recipeSHA256": "f05b89867a38f535bf69fae34af20a3cb74fe52a7b1cd4f383d3177d3fb64e2a"
+      },
+      "requirements": [
+        {
+          "label": "Tears of the Kingdom",
+          "stage": "build",
+          "oneOf": ["3408d268e0522c53e96e1c853f99f93fd00e53be", "a69ed9952cd3eafcdb8bdabfa6d6e890656f0b1f"]
+        },
+        {
+          "label": "Update 1.4.3",
+          "stage": "build",
+          "oneOf": ["0f58226cc2cde91f1d97051b284fe0109824ef98"]
+        },
+        {
+          "label": "Console keys",
+          "stage": "build",
+          "oneOf": ["3d5674e1f5094aee4ff97f33d9030b44d926d2eb", "f592938471b3a40dd6f6a99a8f43fd42faa1f61a"]
+        },
+        {
+          "label": "Firmware",
+          "stage": "build",
+          "oneOf": ["e466c22c076a9223b13f0a888a209715fb4c04dc"]
+        }
+      ],
+      "permissions": { "network": false, "controllers": true, "files": false },
+      "artwork": { "fallback": 5303117 },
+      "codeSigning": { "exceptions": ["allow-unsigned-executable-memory"] },
+      "buildAssets": { "path": "Contents/Resources/totk", "format": "4b3fc72" },
+      "screenshots": [],
+      "tags": ["60fps", "widescreen", "gyro"],
+      "firstRelease": "2026-10-25T13:13:06Z"
+    }
+  ]
+}
